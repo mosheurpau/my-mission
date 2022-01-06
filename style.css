@@ -1,6 +1,7 @@
 body{   
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(white, white);
+    background-image: linear-gradient( white, white);
+    margin: 0;
 }
 h1{
     font-size: 40px;
@@ -9,22 +10,30 @@ h1{
 h2{
     font-size: 30px;
 }
-.width-half p{
+.misson-p{
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .flexible-cont{
     display: flex;
-    margin: 50px 80px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    
+}
+.flaxible-mission{
+    margin-bottom: 20px;
 }
 
 .width-half{
     width: 50%;
-    padding-left: 80px;
+    margin-right: 10%;
+    padding-bottom: 50px;
 }
+
 .width-half img{
     width: 80%;
-    padding-left: 50px;
+ 
 }
 
 .orange-color{
@@ -46,20 +55,22 @@ h2{
     padding: 8px 20px;
     border-radius: 5px;
 }
-
+.flaxible-mission{
+    margin-right: 120px;
+}
 .width-third{
-    width: 30%;
+    width: 33%;
     border-radius: 1px solid black;
     background: magenta;
-    padding: 30px;
-    margin: 0 10px 0 10px;
     border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
 }
 .width-third img{
     width: 50%;
 }
-.missin-h1{
-    text-align: center;
+.missin-h2{
+    text-align: center
 }
 #bg-1{
     background-color: #EDF5F6;
@@ -70,3 +81,33 @@ h2{
 #bg-3{
     background-color: #FFF4D6;
 }
+.community-bg{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 85%;
+    background-position-y: 100%;
+    background-size: 10%;
+}
+.Work-h1{
+    text-align: center;
+    color: black;
+}
+.contact-input{
+    padding: 10px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.foter-con{
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    background-image: linear-gradient(black, black);;
+}
+
+
+
+
